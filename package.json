@@ -1,0 +1,25 @@
+{
+    "name": "@snapatoms/webcomponents",
+    "version": "1.0.0",
+    "description": "Snap Atoms - Web Components library",
+    "main": "index.js",
+    "scripts": {
+        "start": "npm run build && node server.js",
+        "build": "rollup -c"
+    },
+    "author": "kmjbyrne <keithmbyrne@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/cli": "^7.1.5",
+        "@babel/core": "^7.1.5",
+        "@babel/plugin-proposal-class-properties": "^7.1.0",
+        "@babel/plugin-proposal-decorators": "^7.1.2",
+        "@babel/preset-env": "^7.1.5",
+        "@babel/preset-typescript": "^7.1.0",
+        "lit-element": "^2.0.0-rc.5",
+        "rollup": "^0.67.1",
+        "rollup-plugin-babel": "^4.0.3",
+        "rollup-plugin-node-resolve": "^3.4.0",
+        "express": "^4.16.2"
+    }
+}
